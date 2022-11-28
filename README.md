@@ -40,3 +40,17 @@ Output created: sub1.html
 ```
 
 Adding the `output-dir` parameter to `sub1/_metadata.yml` does not change the result.
+
+# Workaround
+
+Using quarto >= v1.2 project profiles can be used to achieve a similar effect https://quarto.org/docs/projects/profiles.html
+
+This will use the `_quarto-sub1.yml` project file:
+```bash
+quarto render --profile sub1
+```
+
+This will use the default `_quarto.yml` file:
+```bash
+quarto render
+```
