@@ -1,0 +1,10 @@
+---
+title: sub topic 1
+output-dir: ../docs
+---
+
+## sub-sub topic
+
+-foo
+-bar
+
